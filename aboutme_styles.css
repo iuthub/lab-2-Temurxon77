@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+body{
+    background-image: url(assets/zakat_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+html{
+    background-color: rgb(242, 217, 196);
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 96%;
+    height: 96%;
+}
+.MyCourses>h1{
+    background-color: #065ae0;
+}
+.main {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: rgba(230, 227, 107, 0.952);
+}
+
+.data{
+    border-width: 1;
+    margin-top: 20px;
+}
+.hor_row{
+    margin-top: 20px;
+    border-color: darkslategray;
+}
+h1,li{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: white;
+}
+h3{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: white;
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color:white;
+}
+li,p{
+    font-size: 20px;
+}
+li:hover,p:hover,h1:hover,h3:hover{
+    color: rgb(201, 10, 10);
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+ol>a{
+    display: inline;
+}
+.MyFilms>h1{
+    background-color: #07ba6f;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.Mood_header{
+    background-color: steelblue;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.MyCourses>h1{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+img{
+    border-radius: 8px;
+}
+@media only screen and (max-width: 700px) {
+    .Images {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Images {
+      width: 100%;
+    }
+  }
+.Happy{
+    width: 90%;
+}
+.Sad{
+    width: 90%;
+}
+.Neighbours>h1{
+    background-color: orange;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
